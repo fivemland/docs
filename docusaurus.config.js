@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Fivemland",
   tagline: "Egy  magyar FiveM fejlesztői közösség, csatlakozz hozzánk még ma!",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://fivemland.github.io/fivemlandocs/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
