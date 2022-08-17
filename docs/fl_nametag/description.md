@@ -10,13 +10,18 @@ _Letöltés: https://github.com/fivemland/fl_nametag_
 
 ### Képek:
 
-![](https://github.com/fivemland/fl_nametag/raw/main/Screenshot.png)
-![](https://github.com/fivemland/fl_nametag/raw/main/Screenshot2.png)
+![](https://raw.githubusercontent.com/fivemland/fl_nametag/main/screenshots/Screenshot.png)
+![](https://raw.githubusercontent.com/fivemland/fl_nametag/main/screenshots/Screenshot2.png)
+![](https://raw.githubusercontent.com/fivemland/fl_nametag/main/screenshots/Screenshot3.png)
 
 ### - Követelmény:
 
-- `ESX Legacy`
-- `oxmysql`
+- [ESX Legacy](https://github.com/esx-framework/esx-legacy)
+- [oxmysql](https://github.com/overextended/oxmysql)
+
+### - Opcionális:
+
+- [fl_adminpanel](https://github.com/fivemland/fl_adminpanel) - Integrálva van az adminduty logo és az admin név megjelenítés.
 
 ### - Parancslista
 
