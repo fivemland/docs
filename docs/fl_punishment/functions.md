@@ -6,36 +6,38 @@ sidebar_position: 2
 
 ## Exportok
 
-#### - Szerver oldal
+## - Szerver oldal
 
-<!-- >
-> #### - getPlayerPP(player)
->
-> - _játékos prémium pontjainak lekérése_
-> - _return -> number_
->
->   ```lua
->   exports.fl_dashboard:getPlayerPP(player)
->   ```
->
-> #### - setPlayerPP(player)
->
-> - _játékos prémium pontjainak beállítása_
-> - _return boolean_
->
->   ```lua
->   exports.fl_dashboard:setPlayerPP(player)
->   ```
->
-> #### - takePlayerPP(player)
->
-> - _játékos prémium pontjaiból levonás_
-> - _return boolean_
->
->   ```lua
->   exports.fl_dashboard:takePlayerPP(player, value)
->   ``` -->
+### getPlayerPunishment(player, name)
 
-| Export                             | Leírás                               | Kód                                                         |
-| ---------------------------------- | ------------------------------------ | ----------------------------------------------------------- |
-| getPlayerPunishment(xPlayer, name) | Játékos büntetési adatainak lekérése | `exports.fl_punishments:getPlayerPunishment(xPlayer, name)` |
+| Argumentum | Típus                  |
+| ---------- | ---------------------- |
+| player     | xPlayer / serverId     |
+| name       | string (comserv, jail) |
+|            |                        |
+| Return     | Object                 |
+
+### Példa
+
+```lua
+local comserv = exports.fl_punishment:getPlayerPunishment(source, "comserv")
+```
+
+### banPlayer(admin, target, days, reason)
+
+| Argumentum | Típus                 |
+| ---------- | --------------------- |
+| admin      | xPlayer / serverId    |
+| target     | xPlayer / serverId    |
+| days       | number (0 - Infinity) |
+| reason     | string                |
+|            |                       |
+| Return     | boolean               |
+
+### Példa
+
+```lua
+RegisterCommand("ban2", function(player, args)
+  local comserv = exports.fl_punishment:banPlayer(player, args[1], 0, "AdminPanel")
+end)
+```
