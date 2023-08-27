@@ -34,16 +34,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   editUrl:
-        //     "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -67,9 +58,8 @@ const config = {
             position: 'left',
             label: 'Dokumentációk',
           },
-          // { to: "/blog", label: "Blog", position: "left" },
           {
-            href: 'https://discord.gg/adgqWM7g',
+            href: 'https://discord.gg/fivem-land-873627273738203197',
             label: 'Discord',
             position: 'right',
           },
@@ -82,21 +72,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          // {
-          //   title: "More",
-          //   items: [
-          //     {
-          //       label: "Blog",
-          //       to: "/blog",
-          //     },
-          //     {
-          //       label: "GitHub",
-          //       href: "https://github.com/facebook/docusaurus",
-          //     },
-          //   ],
-          // },
-        ],
+        links: [],
         copyright: `Copyright © ${new Date().getFullYear()} Fivemland`,
       },
       prism: {
