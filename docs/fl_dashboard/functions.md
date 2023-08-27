@@ -66,7 +66,7 @@ sidebar_position: 2
 | Export               | Leírás                                | Kód                                               |
 | -------------------- | ------------------------------------- | ------------------------------------------------- |
 | getPlayerPP(player)  | Játékos prémium pontjainak lekérése   | `exports.fl_dashboard:getPlayerPP(player)`        |
-| etPlayerPP(player)   | Játékos prémium pontjainak beállítása | `exports.fl_dashboard:setPlayerPP(player)`        |
+| setPlayerPP(player)   | Játékos prémium pontjainak beállítása | `exports.fl_dashboard:setPlayerPP(player)`        |
 | takePlayerPP(player) | játékos prémium pontjaiból levonás    | `xports.fl_dashboard:takePlayerPP(player, value)` |
 
 ## Eventek
